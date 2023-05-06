@@ -167,7 +167,7 @@ class CodeBreaker
 
   def win?
     if @hits == 4
-      puts "congratulations #{@name}. You win!"
+      puts "#{@name} wins!"
       @win = true
     end
   end
